@@ -6,7 +6,8 @@ import BookGallery from "../assets//BookGallery.png";
 import Elecwizzy from "../assets/Elecwizzy.png";
 import Newstally from "../assets/NewsTally.png";
 import Restaurent from "../assets/Restaurant.png";
-import WayPoint from "../assets/WayPoint.png";
+import Creators from "../assets/Creators.png";
+import MiraiGroup from "../assets/Mirai-Group.png";
 
 interface Project {
   id: number;
@@ -40,10 +41,10 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "E-Learning Platform",
-    imageSrc: WayPoint,
-    imageAlt: "wayPoint",
-    link: "https://waypoint-institute.com",
+    title: "Real Estate Project",
+    imageSrc: Creators,
+    imageAlt: "creators",
+    link: "https://cdl.com.bd",
   },
   {
     id: 5,
@@ -51,6 +52,13 @@ const projects: Project[] = [
     imageSrc: BookGallery,
     imageAlt: "bookGallery",
     link: "https://allbookgallery.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Education Consultency",
+    imageSrc: MiraiGroup,
+    imageAlt: "miraigroup",
+    link: "https://miraigroupedu.com",
   },
 ];
 
