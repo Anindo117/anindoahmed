@@ -50,7 +50,7 @@ const projects: Project[] = [
     title: "Book Gallery",
     imageSrc: BookGallery,
     imageAlt: "bookGallery",
-    link: "hhttps://allbookgallery.netlify.app/",
+    link: "https://allbookgallery.netlify.app/",
   },
 ];
 
